@@ -94,6 +94,10 @@ body {
     flex-direction: column;
 }
 
+.items__column:not(:last-child) .items__info {
+    border-right: 1px solid #fff;
+}
+
 .items__info {
     display: block;
     min-height: 150px;
