@@ -183,4 +183,5 @@ body {
     padding: 0 5px;
     border-radius: 2px;
     align-self: flex-start;
+    transition: background-color .3s;
 }
