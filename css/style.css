@@ -94,6 +94,11 @@ body {
     flex-direction: column;
 }
 
+.items__column:hover .items__price {
+    color: #fff;
+    background-color: red;
+}
+
 .items__column:not(:last-child) .items__info {
     border-right: 1px solid #fff;
 }
@@ -170,8 +175,12 @@ body {
 }
 
 .items__price {
+    display: inline-block;
     font-weight: 900;
     font-size: 24px;
     line-height: 1.21;
-    padding: 0 23px;
+    margin: 0 0 0 23px;
+    padding: 0 5px;
+    border-radius: 2px;
+    align-self: flex-start;
 }
