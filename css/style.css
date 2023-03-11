@@ -49,3 +49,28 @@ body {
 
 .top__arrows {
 }
+
+.top__arrows::before {
+    content: '';
+    display: inline-block;
+    background: url("../svg/left.svg") 0 0 no-repeat;
+    width: 21px;
+    height: 38px;
+    opacity: .1;
+}
+
+.top__arrows::after {
+    content: '';
+    display: inline-block;
+    background: url("../svg/right.svg") 0 0 no-repeat;
+    width: 21px;
+    height: 38px;
+    opacity: .1;
+    margin: 0 0 0 42px;
+}
+
+.top__arrows::before,
+.top__arrows::after {
+    position: relative;
+    top: 6px;
+}
