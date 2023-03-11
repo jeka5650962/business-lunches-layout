@@ -1,2 +1,13 @@
 @import "nullstyle.css";
 
+body {}
+
+[class*='__container'] {
+    max-width: 1500px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.wrapper {}
+
+.block {}
