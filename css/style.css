@@ -1,6 +1,11 @@
 @import "nullstyle.css";
 
-body {}
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 [class*='__container'] {
     max-width: 1500px;
@@ -11,3 +16,8 @@ body {}
 .wrapper {}
 
 .block {}
+
+.block__top {
+    background-color: #eeebd8;
+    padding: 22px;
+}
