@@ -13,11 +13,7 @@ body {
     margin: 0 auto;
 }
 
-.wrapper {
-}
-
-.block {
-}
+/* ---------------------------------- top ---------------------------------- */
 
 .block__top {
     background-color: #eeebd8;
@@ -66,5 +62,44 @@ body {
 .navigation__next {
     background: url("../svg/right.svg") 0 0 no-repeat;
     margin: 0 0 0 42px;
+}
+
+/* ---------------------------------- items ---------------------------------- */
+
+.block__items {
+    background-color: #f4e4cd;
+    padding: 0 0 40px 0;
+}
+
+.items__body {
+    display: flex;
+}
+
+.items__column {
+    flex: 0 1 25%;
+}
+
+.items__info {
+    min-height: 150px;
+    padding: 15px 20px;
+    color: #fff;
+}
+
+.info__title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 23px;
+}
+
+.info__address {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.info__schedule {
+    font-size: 13px;
+    line-height: 13px;
 }
 
