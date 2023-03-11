@@ -13,11 +13,38 @@ body {
     margin: 0 auto;
 }
 
-.wrapper {}
+.wrapper {
+}
 
-.block {}
+.block {
+}
 
 .block__top {
     background-color: #eeebd8;
-    padding: 22px;
+    padding: 22px 22px 30px 22px;
+}
+
+.top__body {
+    display: flex;
+    align-items: center;
+}
+
+.top__title {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.top__title::after {
+    content: '';
+    display: inline-block;
+    background: url("../svg/carte.svg") 0 0 no-repeat;
+    width: 80px;
+    height: 39px;
+    margin: 0 0 0 30px;
+    position: relative;
+    top: 3px;
+}
+
+.top__arrows {
 }
