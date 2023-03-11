@@ -44,33 +44,27 @@ body {
     margin: 0 0 0 85px;
 }
 
-.top__arrows {
+.top__navigation {
     flex-grow: 1;
     text-align: end;
 }
 
-.top__arrows::before {
-    content: '';
+.navigation__previous,
+.navigation__next {
     display: inline-block;
-    background: url("../svg/left.svg") 0 0 no-repeat;
     width: 21px;
     height: 38px;
     opacity: .1;
-}
-
-.top__arrows::after {
-    content: '';
-    display: inline-block;
-    background: url("../svg/right.svg") 0 0 no-repeat;
-    width: 21px;
-    height: 38px;
-    opacity: .1;
-    margin: 0 0 0 42px;
-}
-
-.top__arrows::before,
-.top__arrows::after {
     position: relative;
     top: 6px;
+}
+
+.navigation__previous {
+    background: url("../svg/left.svg") 0 0 no-repeat;
+}
+
+.navigation__next {
+    background: url("../svg/right.svg") 0 0 no-repeat;
+    margin: 0 0 0 42px;
 }
 
