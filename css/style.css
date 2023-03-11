@@ -26,6 +26,7 @@ body {
 
 .top__body {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -41,7 +42,7 @@ body {
     background: url("../svg/carte.svg") 0 0 no-repeat;
     width: 80px;
     height: 39px;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 85px;
     position: relative;
     top: 3px;
 }
