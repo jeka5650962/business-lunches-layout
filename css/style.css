@@ -93,6 +93,7 @@ body {
 }
 
 .items__info {
+    display: block;
     min-height: 150px;
     padding: 15px 20px;
     color: #fff;
