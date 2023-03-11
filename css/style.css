@@ -82,10 +82,24 @@ body {
 .block__items {
     background-color: #f4e4cd;
     padding: 0 0 40px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.block__items::after {
+    content: '';
+    display: block;
+    background: url("../svg/background.svg") 0 0 no-repeat;
+    width: 100%;
+    height: 137px;
+    position: absolute;
+    bottom: -50px;
 }
 
 .items__body {
     display: flex;
+    position: relative;
+    z-index: 1;
 }
 
 .items__column {
