@@ -208,3 +208,22 @@ body {
     align-self: flex-start;
     transition: background-color .3s;
 }
+
+/* ---------------------------------- @media ---------------------------------- */
+
+@media (max-width: 1164px) {
+    .top__body {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .top__title {
+        flex: 0 1 100%;
+    }
+
+    .top__logo {
+        margin: 0;
+    }
+
+    .top__navigation {}
+}
