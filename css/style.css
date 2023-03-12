@@ -197,7 +197,7 @@ body {
 .items__price {
     display: inline-block;
     font-weight: 900;
-    font-size: 24px;
+    font-size: calc(17px + (24 - 17) * (100vw / 1440));
     line-height: 1.21;
     margin: 0 0 0 23px;
     padding: 0 5px;
@@ -239,5 +239,15 @@ body {
 
     .menu__item {
         font-size: calc(14px + (17 - 14 + (17 - 14) * 0.7) * ((100vw - 320px) / 1440));
+    }
+
+    .items__price {
+        font-size: calc(17px + (24 - 17 + (24 - 17) * 0.7) * ((100vw - 320px) / 1440));
+    }
+}
+
+@media (max-width: 413px) {
+    .items__column {
+        flex: 0 1 100%;
     }
 }
