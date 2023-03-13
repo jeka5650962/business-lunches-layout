@@ -230,7 +230,7 @@ body {
 
     .items__body {
         flex-wrap: wrap;
-        row-gap: 40px;
+        row-gap: 20px;
     }
 
     .items__column {
