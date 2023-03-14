@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed:wght@700&family=Roboto:wght@300;400;900&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <title>Бизнес-ланчи в Витебске</title>
 </head>
 <body>
@@ -28,8 +29,8 @@
                 </div>
             </div>
             <div class="block__items items">
-                <div class="items__body">
-                    <div class="items__column">
+                <div class="items__body swiper-wrapper">
+                    <div class="items__column swiper-slide">
                         <a href="https://liamus.vitebsk.biz/" class="items__info info _ibg" target="_blank">
                             <div class="info__overlay"></div>
                             <div class="info__text">
@@ -48,7 +49,7 @@
                         </div>
                         <div class="items__price">14,50 р.</div>
                     </div>
-                    <div class="items__column">
+                    <div class="items__column swiper-slide">
                         <a href="https://matreshki.vitebsk.biz/" class="items__info info _ibg" target="_blank">
                             <div class="info__overlay"></div>
                             <div class="info__text">
@@ -69,7 +70,7 @@
                         </div>
                         <div class="items__price">14,00 р.</div>
                     </div>
-                    <div class="items__column">
+                    <div class="items__column swiper-slide">
                         <a href="https://nostalgia.vitebsk.biz/" class="items__info info _ibg" target="_blank">
                             <div class="info__overlay"></div>
                             <div class="info__text">
@@ -88,7 +89,7 @@
                         </div>
                         <div class="items__price">8,95 р.</div>
                     </div>
-                    <div class="items__column">
+                    <div class="items__column swiper-slide">
                         <a href="https://gorod.vitebsk.biz/" class="items__info info _ibg" target="_blank">
                             <div class="info__overlay"></div>
                             <div class="info__text">
@@ -107,10 +108,52 @@
                         </div>
                         <div class="items__price">8,95 р.</div>
                     </div>
+                    <div class="items__column swiper-slide">
+                        <a href="https://liamus.vitebsk.biz/" class="items__info info _ibg" target="_blank">
+                            <div class="info__overlay"></div>
+                            <div class="info__text">
+                                <h2 class="info__title">Лямус</h2>
+                                <div class="info__address">Витебск, пр-т Победы, 1</div>
+                                <div class="info__schedule">12:00 - 16:00</div>
+                            </div>
+                            <img src="images/image-1.jpg" alt="Лямус">
+                        </a>
+                        <div class="items__menu menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">Салат-коктейль «Свежесть»</li>
+                                <li class="menu__item">Рассольник «Ленинградский» с мясом и сметаной</li>
+                                <li class="menu__item">Блинчики с мясным фаршем</li>
+                            </ul>
+                        </div>
+                        <div class="items__price">14,50 р.</div>
+                    </div>
+                    <div class="items__column swiper-slide">
+                        <a href="https://matreshki.vitebsk.biz/" class="items__info info _ibg" target="_blank">
+                            <div class="info__overlay"></div>
+                            <div class="info__text">
+                                <h2 class="info__title">Матрешки</h2>
+                                <div class="info__address"></div>
+                                <div class="info__schedule"></div>
+                            </div>
+                            <img src="images/image-2.jpg" alt="Матрешки">
+                        </a>
+                        <div class="items__menu menu">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="#" class="menu__link">Салат «Олимп»</a>
+                                    <span>3,00</span></li>
+                                <li class="menu__item">Суп дня <span>4,00</span></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Поджарка из цыпленка с грибами и
+                                    гречневой кашей</a> <span>7,00</span></li>
+                            </ul>
+                        </div>
+                        <div class="items__price">14,00 р.</div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
