@@ -1,7 +1,7 @@
 new Swiper(".block__items", {
     navigation: {
-        nextEl: ".navigation__next",
-        prevEl: ".navigation__previous",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
     simulateTouch: false,
     slidesPerView: 1

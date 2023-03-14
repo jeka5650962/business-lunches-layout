@@ -55,25 +55,6 @@ body {
     text-align: end;
 }
 
-.navigation__previous,
-.navigation__next {
-    display: inline-block;
-    width: 21px;
-    height: 38px;
-    opacity: .1;
-    position: relative;
-    top: 6px;
-}
-
-.navigation__previous {
-    background: url("../svg/left.svg") 0 0 no-repeat;
-}
-
-.navigation__next {
-    background: url("../svg/right.svg") 0 0 no-repeat;
-    margin: 0 0 0 42px;
-}
-
 /* ---------------------------------- items ---------------------------------- */
 
 .block__items {
