@@ -4,5 +4,5 @@ new Swiper(".block__items", {
         prevEl: ".swiper-button-prev",
     },
     simulateTouch: false,
-    slidesPerView: 1
+    slidesPerView: 4
 })
